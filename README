@@ -1,0 +1,88 @@
+========================================================================================
+
+      Filename:  README
+
+   Description:  Automatic Test Pattern Generator for combinational
+                 circuits.
+
+       Version:  1.0
+       Created:  12/02/2011
+
+        Author:  Aditya Shevade <aditya.shevade@gmail.com>,
+                 Amey Marathe <marathe.amey@gmail.com>,
+                 Samik Biswas <samiksb@gmail.com>,
+                 Viraj Bhogle <viraj.bhogle@gmail.com>
+
+========================================================================================
+
+
+This code generates test patterns to detect faults in a combinational circuit.
+The program takes in 2 parameters. The circuit file and the fault list.
+This code only works on single stuck at faults (one fault at a time).
+
+It then performs fault collapsing on the circuit, considering all faults possible.
+After collapse, it generates a list of vectors to test for faults on all the faults from
+this collapsed list.
+
+The second parameter is a list of line number in the circuit and the corresponding fault 
+to be checked. The program returns one vector per fault in this file which, when applied
+can detect the fault in the circuit.
+
+========================================================================================
+Circuit File Format
+========================================================================================
+
+  The circuit format (called "self" format) is based on outputs of
+  a ISCAS 85 format translator written by Dr. Sandeep Gupta.
+  The format uses only integers to represent circuit information.
+  The format is as follows:
+
+1        2        3        4           5           6 ...
+------   -------  -------  ---------   --------    --------
+0 GATE   outline  0 IPT    #_of_fout   #_of_fin    inlines
+                  1 BRCH
+                  2 XOR
+                  3 OR
+                  4 NOR
+                  5 NOT
+                  6 NAND
+                  7 AND
+                  8 XNOR (Currently not implemented)
+
+1 PI     outline  0        #_of_fout   0
+
+2 FB     outline  1 BRCH   inline
+
+3 PO     outline  2 - 7    0           #_of_fin    inlines
+
+----------------------------------------------------------------------------------------
+
+For example, if the first column is 0 then it's a gate. Second column is the output of
+the gate. Outline, also called line number, is unique. Third column is the type of the
+gate. Column 4 is the number of fan-out (how many outputs this gate drives. The fifth
+column is the number of inputs to the gate. Column 6-N are the line numbers of the
+inputs to the gate.
+
+Similarly for PI (Primary input of the circuit), PO (Primary output of the circuit)
+and FB (Branches).
+
+========================================================================================
+Restrictions
+========================================================================================
+
+The code is currently only capable of working with 3 input gates.
+XNOR is not implemented yet.
+
+========================================================================================
+Running the Code
+========================================================================================
+
+Once in the source directory, run make to compile the program.
+Once compiled, run the program as
+    
+    ./atpg x.ckt y.flt
+
+Where x.ckt is the circuit file and y.flt is the fault list file.
+
+========================================================================================
+
