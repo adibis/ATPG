@@ -36,6 +36,13 @@ namespace nameSpace_ATPG {
 #define LOG_FILE_NAME "logFile.log"
 
 /*
+ * Here we define if we want the final test list to be put in a file.
+ * Both the variables need to be defined in conjunction.  
+ */
+#define RESULT_FILE
+#define RESULT_FILE_NAME "finalTest.tst"
+
+/*
  * Provision, in case LOG is defined and DEBUG is not.
  */
 #ifdef LOG

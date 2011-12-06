@@ -108,13 +108,14 @@ vector <string> masterTestVector;
  * vector.
  */
 vector <FaultList> masterFaultList;
+vector <FaultList> finalFaultList;
 vector <FaultList> providedFaultList;
 /*
  * This vector contains all the possible faults in the circuit and the test
  * vector associated with them.
  */
 vector <TestList> masterTestList;
-vector <TestList> providedTestList;
+vector <TestList> finalTestList;
 
 /* 
  * ===  FUNCTION  ======================================================================
@@ -551,7 +552,7 @@ void CollapseFaults (map <int, CircuitLine> &masterLineList, vector <CircuitNode
  *                running ATPG, we have to obtain a test for every fault in this list.
  * =====================================================================================
  */
-void CreateFaultList (void) {
+void CreateFaultList (vector <FaultList> &inFaultList) {
 
     #ifdef DEBUG
         WRITE << "================================================================================" << endl;
@@ -563,13 +564,13 @@ void CreateFaultList (void) {
         if ((*itr).second.isStuckAt_0) {
             FaultList *thisFault;
             thisFault = new FaultList ((*itr).first, false);
-            masterFaultList.push_back(*thisFault);
+            inFaultList.push_back(*thisFault);
             delete thisFault;
         }
         if ((*itr).second.isStuckAt_1) {
             FaultList *thisFault;
             thisFault = new FaultList ((*itr).first, true);
-            masterFaultList.push_back(*thisFault);
+            inFaultList.push_back(*thisFault);
             delete thisFault;
         }
     }
@@ -578,9 +579,9 @@ void CreateFaultList (void) {
         WRITE << endl;
         WRITE << "Master Fault List Contains" << endl;
         WRITE << "------------------------------------------------------------" << endl;
-        for (int i = 0; i < masterFaultList.size(); i++) {
-            WRITE << "Line Number = " << masterFaultList[i].lineNumber << endl;
-            WRITE << "Fault Value = " << masterFaultList[i].stuckAtValue << endl;
+        for (int i = 0; i < inFaultList.size(); i++) {
+            WRITE << "Line Number = " << inFaultList[i].lineNumber << endl;
+            WRITE << "Fault Value = " << inFaultList[i].stuckAtValue << endl;
             WRITE << endl;
         }
         WRITE << endl;
@@ -1092,68 +1093,139 @@ int main (int argc, char *argv[]) {
     ifstream inFile;
     ofstream outFile;
 
-    if (argc <= 2 || argc > 3) {
-        cerr << "ERROR: Usage: " << argv[0] << " <Circuit Filename> <Faultlist Filename>" << endl;
+    if (argc <= 1 || argc > 3) {
+        cerr << "ERROR: Usage: " << argv[0] << " <Circuit Filename> (Optional <Faultlist Filename>)" << endl;
         exit(1);
     }
     int i;
+
+    // The first argument to the program is the circuit file.
     openInFile (argv[1], inFile, logFile);
     ReadCircuit (inFile);
     inFile.close();
 
-    openInFile (argv[2], inFile, logFile);
-    ReadFaultList(inFile);
-    inFile.close();
+    // If there is a second argument present, then that is the provided fault
+    // list that we have to obtain the vectors for.
+    //
+    // If the argument is given, parse the file and create a list of faults to
+    // be checked.
+    if (argc == 3) {
+        openInFile (argv[2], inFile, logFile);
+        ReadFaultList(inFile);
+        inFile.close();
+    }
 
+    // Levelize the circuit.
     SetLineLevel(masterNodeList);
+
+    // Create a list of faults to be collapsed.
+    //
+    // This creates a list of all the lines in the circuit and assumes possibility of
+    // a stuck at 0 and 1 fault at each line.
     CreateFaultObjects(masterLineList, masterNodeList);
+
+    // If there is no fault list provided to be checked then we assume that we have to
+    // check all the faults in the circuit.
+    //
+    // So we create a list of all faults in the circuit.
+    if (argc == 2) {
+        CreateFaultList(finalFaultList);
+    }
+
+    // Then we collapse the faults.
     CollapseFaults(masterLineList, masterNodeList);
-    CreateFaultList();
+
+    // We create a master list of faults after collapsing the faults.
+    //
+    // This list is used to find the test vectors that can identify all
+    // detectable faults in the circuit.
+    CreateFaultList(masterFaultList);
+
+    // We create a master list of possible inputs. This is a pseudo sequence that
+    // goes on checking the circuit by first setting only one input and then moving
+    // on with 2, 3 till it finds proper test.
     GenerateMasterInputVectors(CircuitNode::totalInputs);
 
+    // Not really necessary. We just simulate the fault free circuit for all possible inputs.
+    // Uncomment this part if you want simple logic simulation.
+    /*
     vector <string>::iterator itrVector;
     for (itrVector = masterInputVector.begin(); itrVector != masterInputVector.end(); itrVector++) {
         SimpleLogicSimulation(CircuitNode::totalInputs, *itrVector);
     }
-    cout << "Checking for ATPG" << endl;
+    */
+
+    cout << "=========================================================" << endl;
+    cout << "==========           Starting PODEM            ==========" << endl;
+    cout << "=========================================================" << endl;
+
+    // This routine generates a list of vectors (the masterTestList) that has the faults in the circuit
+    // and the vectors associated with each test.
     CheckAllFaultsATPG(CircuitNode::totalInputs, masterInputVector, masterTestList, masterFaultList);
 
+    // Here we print all the faults, the faults and the test vectors associated with them.
     for (int i = 0; i < masterTestList.size(); i++) {
         cout << "Test Information For" << endl;
         cout << "------------------------------------------------------------" << endl;
         cout << "Line Number Is = " << masterTestList[i].lineNumber << endl;
         cout << "Fault Is Stuck At = " << masterTestList[i].stuckAtValue << endl;
-        cout << "Test Vector Is = " << masterTestList[i].testVector << endl;
+        if (masterTestList[i].isTestPossible) {
+            cout << "Test Vector Is = " << masterTestList[i].testVector << endl;
+        } else {
+            cout << "Test is not possible for this fault." << endl;
+        }
         cout << endl;
     }
 
+    // Here we create a list of all the vectors that were created in the last step.
+    // This list should, theoretically, be able to test all faults in the circuit.
     for (int i = 0; i < masterTestList.size(); i++) {
         masterTestVector.push_back(masterTestList[i].testVector);
     }
-    cout << "=========================================================" << endl;
-    cout << "=========================================================" << endl;
-    cout << "=========================================================" << endl;
-    cout << "=========================================================" << endl;
-    cout << "Checking for given faults." << endl;
-    cout << "=========================================================" << endl;
-    cout << "=========================================================" << endl;
-    cout << "=========================================================" << endl;
-    CheckAllFaultsATPG(CircuitNode::totalInputs, masterTestVector, providedTestList, providedFaultList);
 
-    for (int i = 0; i < providedTestList.size(); i++) {
+    cout << "=========================================================" << endl;
+    if (argc == 3) {
+        cout << "==========      Checking for given faults.     ==========" << endl;
+    } else {
+        cout << "========== Checking for all faults in circuit. ==========" << endl;
+    }   
+    cout << "=========================================================" << endl;
+
+    // Now, if there was a fault list given, we try to test the faults in the list using
+    // the master test vector list created in the last step.
+    //
+    // If there was no fault list provided then we test the circuit for all the faults in
+    // the circuit (stuck at 0 and 1 on each line).
+    if (argc == 3) {
+        CheckAllFaultsATPG(CircuitNode::totalInputs, masterTestVector, finalTestList, providedFaultList);
+    } else {
+        CheckAllFaultsATPG(CircuitNode::totalInputs, masterTestVector, finalTestList, finalFaultList);
+    }
+
+    // We just pring the information out to screen here.
+    for (int i = 0; i < finalTestList.size(); i++) {
         cout << "Test Information For" << endl;
         cout << "------------------------------------------------------------" << endl;
-        cout << "Line Number Is = " << providedTestList[i].lineNumber << endl;
-        cout << "Fault Is Stuck At = " << providedTestList[i].stuckAtValue << endl;
-        cout << "Test Vector Is = " << providedTestList[i].testVector << endl;
+        cout << "Line Number Is = " << finalTestList[i].lineNumber << endl;
+        cout << "Fault Is Stuck At = " << finalTestList[i].stuckAtValue << endl;
+        cout << "Test Vector Is = " << finalTestList[i].testVector << endl;
         cout << endl;
     }
 
+    #ifdef RESULT_FILE
+        openOutFile((char *)RESULT_FILE_NAME, outFile, logFile);
+
+        for (int i = 0; i < finalTestList.size(); i++) {
+            if (finalTestList[i].isTestPossible)
+                outFile << finalTestList[i].lineNumber << " " << finalTestList[i].stuckAtValue << " " << finalTestList[i].testVector << endl;
+        }
+    #endif
+
     /*
      * ============================================================================
-     *  NOTE TO AWATI -
-     *  Don't pay attention to this - just copied this from that crappy C code to
-     *  check the output and make sure all the objects are properly populated.
+     *  This is the same routine as the one used in the code provided to us.
+     *  Just using it here to print information about the circuit to terminal.
+     *  Not really required in the ATPG.
      * ============================================================================
      */
 
