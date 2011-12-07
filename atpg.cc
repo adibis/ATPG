@@ -1049,7 +1049,7 @@ void CheckAllFaultsATPG (int totalInputs, vector <string> &inVectorList, vector 
         if(!TestAllVectorsATPG (totalInputs, inFaultList[i].lineNumber, inFaultList[i].stuckAtValue, inVectorList, inTestList)) {
             TestList *thisTest;
             thisTest = new TestList(inFaultList[i].lineNumber, inFaultList[i].stuckAtValue);
-            masterTestList.push_back(*thisTest);
+            inTestList.push_back(*thisTest);
             delete thisTest;
 
             #ifdef DEBUG
@@ -1180,8 +1180,11 @@ int main (int argc, char *argv[]) {
 
     // Here we create a list of all the vectors that were created in the last step.
     // This list should, theoretically, be able to test all faults in the circuit.
+    //
+    // Only add the vectors where test was possible. Don't add otherwise.
     for (int i = 0; i < masterTestList.size(); i++) {
-        masterTestVector.push_back(masterTestList[i].testVector);
+        if (masterTestList[i].isTestPossible)
+            masterTestVector.push_back(masterTestList[i].testVector);
     }
 
     cout << "=========================================================" << endl;
