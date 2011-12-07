@@ -40,7 +40,8 @@ namespace nameSpace_ATPG {
  * Both the variables need to be defined in conjunction.  
  */
 #define RESULT_FILE
-#define RESULT_FILE_NAME "finalTest.tst"
+#define VECTOR_FILE_NAME "vectorFile.vec"
+#define REPORT_FILE_NAME "reportFile.tst"
 
 /*
  * Provision, in case LOG is defined and DEBUG is not.

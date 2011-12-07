@@ -57,6 +57,7 @@
 
 #include "lib/forward_implication.cc"   // Contains the forward implication functions.
 #include "lib/radix_convert.cc"         // Contains functions to convert deciman number to base N.
+#include "lib/string_convert.cc"
 #include "lib/file_operations.cc"       // Generic input/output file open functions.
 
 #include "class/CircuitNode.cc"         // This class stores information about each node in the circuit.
@@ -1170,7 +1171,7 @@ int main (int argc, char *argv[]) {
         cout << "Line Number Is = " << masterTestList[i].lineNumber << endl;
         cout << "Fault Is Stuck At = " << masterTestList[i].stuckAtValue << endl;
         if (masterTestList[i].isTestPossible) {
-            cout << "Test Vector Is = " << masterTestList[i].testVector << endl;
+            cout << "Test Vector Is = " << StringConvert(masterTestList[i].testVector) << endl;
         } else {
             cout << "Test is not possible for this fault." << endl;
         }
@@ -1208,17 +1209,37 @@ int main (int argc, char *argv[]) {
         cout << "------------------------------------------------------------" << endl;
         cout << "Line Number Is = " << finalTestList[i].lineNumber << endl;
         cout << "Fault Is Stuck At = " << finalTestList[i].stuckAtValue << endl;
-        cout << "Test Vector Is = " << finalTestList[i].testVector << endl;
+        cout << "Test Vector Is = " << StringConvert(finalTestList[i].testVector) << endl;
         cout << endl;
     }
 
+    // If result file is defined then we dump the whole result in a file
+    // in the format specified below. This is defined in the global defines file.
+    //
+    // lineNumber stuckAtFault
+    // testVector
+    // lineNumber stuckAtFault
+    // testVector
     #ifdef RESULT_FILE
-        openOutFile((char *)RESULT_FILE_NAME, outFile, logFile);
+        openOutFile((char *)VECTOR_FILE_NAME, outFile, logFile);
+
+        for (int i = 0; i < masterTestList.size(); i++) {
+            outFile << masterTestList[i].lineNumber << " " << masterTestList[i].stuckAtValue << endl << StringConvert(masterTestList[i].testVector) << endl;
+        }
+
+        outFile.close();
+
+        openOutFile((char *)REPORT_FILE_NAME, outFile, logFile);
 
         for (int i = 0; i < finalTestList.size(); i++) {
+            outFile << finalTestList[i].lineNumber << " " << finalTestList[i].stuckAtValue << endl << StringConvert(finalTestList[i].testVector) << endl;
             if (finalTestList[i].isTestPossible)
-                outFile << finalTestList[i].lineNumber << " " << finalTestList[i].stuckAtValue << " " << finalTestList[i].testVector << endl;
+                outFile << "Yes" << endl;
+            else
+                outFile << "No" << endl;
         }
+
+        outFile.close();
     #endif
 
     /*
