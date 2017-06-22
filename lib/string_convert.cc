@@ -21,7 +21,7 @@
 using namespace std;
 
 
-// #####   HEADER FILE INCLUDES   ###################################################  
+// #####   HEADER FILE INCLUDES   ###################################################
 
 // Global constant definitions.
 
@@ -31,7 +31,7 @@ using namespace std;
 
 namespace nameSpace_ATPG {
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  StringConvert
  *  Description:  This function takes in a string and then replaces all the 4 by X.
@@ -46,10 +46,9 @@ string StringConvert (string inString) {
         inString[positionOfX] = 'X';                // Replace 4 by X since we are using #define X 4.
         positionOfX = inString.find_first_of('4',(positionOfX + 1));
     }
-    
+
     return inString;
 
 }
 
 } /* nameSpace_ATPG */
-

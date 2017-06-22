@@ -34,9 +34,9 @@ namespace nameSpace_ATPG {
  *--------------------------------------------------------------------------------------
  *       Class:  CircuitNode
  *      Method:  CircuitNode :: CircuitNode
- * Description:  The circuit file is read and an object of this class is created for 
- *               each line in the circuit file. Then this constructor is called which 
- *               initializes some members and remaining members are directly written to 
+ * Description:  The circuit file is read and an object of this class is created for
+ *               each line in the circuit file. Then this constructor is called which
+ *               initializes some members and remaining members are directly written to
  *               by the values read from the file.
  *--------------------------------------------------------------------------------------
  */
@@ -59,4 +59,3 @@ int CircuitNode::totalInputs;    // Number of primary inputs, global.
 int CircuitNode::totalOutputs;   // Number of primary outputs, global.
 
 } /* namespace nameSpace_ATPG */
-

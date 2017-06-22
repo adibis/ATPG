@@ -18,7 +18,7 @@
  *         Author:  Aditya Shevade <aditya.shevade@gmail.com>,
  *                  Amey Marathe <marathe.amey@gmail.com>,
  *                  Samik Biswas <samiksb@gmail.com>,
- *                  Viraj Bhogle <viraj.bhogle@gmail.com> 
+ *                  Viraj Bhogle <viraj.bhogle@gmail.com>
  *
  * =====================================================================================
  */
@@ -27,7 +27,7 @@
 #ifndef LOGIC_TABLES_H_
 #define LOGIC_TABLES_H_
 
-// #####   HEADER FILE INCLUDES   ################################################### 
+// #####   HEADER FILE INCLUDES   ###################################################
 
 // Global constant definitions.
 
@@ -100,4 +100,3 @@ int ONEXORTABLE [5] =   {               0,  0,  0,  0,  X   };
 } /* nameSpace_ATPG */
 
 #endif /* LOGIC_TABLES_H_ */
-

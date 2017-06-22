@@ -32,9 +32,9 @@ namespace nameSpace_ATPG {
  * =====================================================================================
  *        Class:  CircuitNode
  *  Description:  Each object of this class represents one line in the circuit.
- *                It can be of type Primary Input, Forward Branch, Primary Output or 
+ *                It can be of type Primary Input, Forward Branch, Primary Output or
  *                a Logic Gate.
- *                
+ *
  *                There are a number of properties associated with each circuit line.
  *                All such properties are included below.
  * =====================================================================================
@@ -60,9 +60,9 @@ class CircuitNode {
          *--------------------------------------------------------------------------------------
          *       Class:  CircuitNode
          *      Method:  CircuitNode :: CircuitNode
-         * Description:  The circuit file is read and an object of this class is created for 
-         *               each line in the circuit file. Then this constructor is called which 
-         *               initializes some members and remaining members are directly written to 
+         * Description:  The circuit file is read and an object of this class is created for
+         *               each line in the circuit file. Then this constructor is called which
+         *               initializes some members and remaining members are directly written to
          *               by the values read from the file.
          *--------------------------------------------------------------------------------------
          */
@@ -71,4 +71,3 @@ class CircuitNode {
 
 } /* namespace nameSpace_ATPG */
 #endif /* CIRCUITNODE_H_ */
-

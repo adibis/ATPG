@@ -37,7 +37,7 @@ namespace nameSpace_ATPG {
 
 /*
  * Here we define if we want the final test list to be put in a file.
- * Both the variables need to be defined in conjunction.  
+ * Both the variables need to be defined in conjunction.
  */
 #define RESULT_FILE
 #define VECTOR_FILE_NAME "vectorFile.vec"
@@ -115,4 +115,3 @@ namespace nameSpace_ATPG {
 }
 
 #endif /* GLOBAL_DEFINES_H_ */
-

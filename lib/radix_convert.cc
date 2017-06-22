@@ -23,7 +23,7 @@
 using namespace std;
 
 
-// #####   HEADER FILE INCLUDES   ###################################################  
+// #####   HEADER FILE INCLUDES   ###################################################
 
 // Global constant definitions.
 
@@ -33,7 +33,7 @@ using namespace std;
 
 namespace nameSpace_ATPG {
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  RadixConvert
  *  Description:  This function takes in an integer value in base 10, the base you want
@@ -76,4 +76,3 @@ string RadixConvert (int value, int base) {
 }
 
 } /* nameSpace_ATPG */
-

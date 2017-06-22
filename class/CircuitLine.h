@@ -54,4 +54,3 @@ class CircuitLine {
 
 } /* namespace nameSpace_ATPG */
 #endif /* CIRCUITLINE_H_ */
-

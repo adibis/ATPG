@@ -1,0 +1,4688 @@
+File opened successfully
+File name = logFile.log
+--------------------------------------------------------------------------------
+
+================================================================================
+===============                                                  ===============
+===============          ATPG Generator - Podem Log File         ===============
+===============                                                  ===============
+================================================================================
+
+Generated On --> 
+
+================================================================================
+
+
+
+File opened successfully
+File name = circuit_files/testcase_3input_xor.ckt
+--------------------------------------------------------------------------------
+
+================================================================================
+===============                In --> ReadCircuit                ===============
+================================================================================
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 1
+nodeType = 1
+lineNumber = 1
+gateType = 0
+numberFanOut = 1
+numberFanIn = 0
+listFanIn = 
+listFanOut =  8, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 2
+nodeType = 1
+lineNumber = 2
+gateType = 0
+numberFanOut = 1
+numberFanIn = 0
+listFanIn = 
+listFanOut =  8, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 3
+nodeType = 1
+lineNumber = 3
+gateType = 0
+numberFanOut = 1
+numberFanIn = 0
+listFanIn = 
+listFanOut =  10, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 4
+nodeType = 1
+lineNumber = 4
+gateType = 0
+numberFanOut = 1
+numberFanIn = 0
+listFanIn = 
+listFanOut =  9, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 5
+nodeType = 1
+lineNumber = 5
+gateType = 0
+numberFanOut = 2
+numberFanIn = 0
+listFanIn = 
+listFanOut =  6,  7, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 6
+nodeType = 2
+lineNumber = 6
+gateType = 1
+numberFanOut = 100
+numberFanIn = 1
+listFanIn =  5, 
+listFanOut =  9, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 7
+nodeType = 2
+lineNumber = 7
+gateType = 1
+numberFanOut = 100
+numberFanIn = 1
+listFanIn =  5, 
+listFanOut =  14, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 8
+nodeType = 0
+lineNumber = 8
+gateType = 3
+numberFanOut = 1
+numberFanIn = 2
+listFanIn =  1,  2, 
+listFanOut =  15, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 9
+nodeType = 0
+lineNumber = 9
+gateType = 7
+numberFanOut = 1
+numberFanIn = 2
+listFanIn =  4,  6, 
+listFanOut =  10, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 10
+nodeType = 0
+lineNumber = 10
+gateType = 3
+numberFanOut = 2
+numberFanIn = 2
+listFanIn =  3,  9, 
+listFanOut =  11,  12, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 11
+nodeType = 2
+lineNumber = 11
+gateType = 1
+numberFanOut = 100
+numberFanIn = 1
+listFanIn =  10, 
+listFanOut =  13, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 12
+nodeType = 2
+lineNumber = 12
+gateType = 1
+numberFanOut = 100
+numberFanIn = 1
+listFanIn =  10, 
+listFanOut =  14, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 13
+nodeType = 0
+lineNumber = 13
+gateType = 5
+numberFanOut = 1
+numberFanIn = 1
+listFanIn =  11, 
+listFanOut =  15, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 14
+nodeType = 0
+lineNumber = 14
+gateType = 2
+numberFanOut = 1
+numberFanIn = 3
+listFanIn =  7,  12,  17, 
+listFanOut =  16, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 15
+nodeType = 0
+lineNumber = 15
+gateType = 3
+numberFanOut = 1
+numberFanIn = 2
+listFanIn =  8,  13, 
+listFanOut =  16, 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 16
+nodeType = 3
+lineNumber = 16
+gateType = 6
+numberFanOut = 0
+numberFanIn = 2
+listFanIn =  14,  15, 
+listFanOut = 
+------------------------------------------------------------
+
+
+
+------------------------------------------------------------
+	Properties Associated With Each Node
+------------------------------------------------------------
+nodeIndex = 17
+nodeType = 1
+lineNumber = 17
+gateType = 0
+numberFanOut = 1
+numberFanIn = 0
+listFanIn = 
+listFanOut =  14, 
+------------------------------------------------------------
+
+
+
+================================================================================
+===============               In --> SetLineLevel                ===============
+================================================================================
+
+Line Number = 1. Level = 0.
+Line Number = 2. Level = 0.
+Line Number = 3. Level = 0.
+Line Number = 4. Level = 0.
+Line Number = 5. Level = 0.
+Line Number = 6. Level = 1.
+Line Number = 7. Level = 1.
+Line Number = 8. Level = 1.
+Line Number = 9. Level = 2.
+Line Number = 10. Level = 3.
+Line Number = 11. Level = 4.
+Line Number = 12. Level = 4.
+Line Number = 13. Level = 5.
+Line Number = 14. Level = 5.
+Line Number = 15. Level = 6.
+Line Number = 16. Level = 7.
+Line Number = 17. Level = 0.
+--------------------------------------------------------------------------------
+
+================================================================================
+===============            In --> CreateFaultObjects             ===============
+================================================================================
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 1
+The Element is 1
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 2
+The Element is 2
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 3
+The Element is 3
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 4
+The Element is 4
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 5
+The Element is 5
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 6
+The Element is 6
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 7
+The Element is 7
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 8
+The Element is 8
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 9
+The Element is 9
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 10
+The Element is 10
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 11
+The Element is 11
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 12
+The Element is 12
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 13
+The Element is 13
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 14
+The Element is 14
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 15
+The Element is 15
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 16
+The Element is 16
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	The map contains following values
+------------------------------------------------------------
+The key is 17
+The Element is 17
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+================================================================================
+===============               In --> CreateFaultList               ===============
+================================================================================
+
+
+Master Fault List Contains
+------------------------------------------------------------
+Line Number = 1
+Fault Value = 0
+
+Line Number = 1
+Fault Value = 1
+
+Line Number = 2
+Fault Value = 0
+
+Line Number = 2
+Fault Value = 1
+
+Line Number = 3
+Fault Value = 0
+
+Line Number = 3
+Fault Value = 1
+
+Line Number = 4
+Fault Value = 0
+
+Line Number = 4
+Fault Value = 1
+
+Line Number = 5
+Fault Value = 0
+
+Line Number = 5
+Fault Value = 1
+
+Line Number = 6
+Fault Value = 0
+
+Line Number = 6
+Fault Value = 1
+
+Line Number = 7
+Fault Value = 0
+
+Line Number = 7
+Fault Value = 1
+
+Line Number = 8
+Fault Value = 0
+
+Line Number = 8
+Fault Value = 1
+
+Line Number = 9
+Fault Value = 0
+
+Line Number = 9
+Fault Value = 1
+
+Line Number = 10
+Fault Value = 0
+
+Line Number = 10
+Fault Value = 1
+
+Line Number = 11
+Fault Value = 0
+
+Line Number = 11
+Fault Value = 1
+
+Line Number = 12
+Fault Value = 0
+
+Line Number = 12
+Fault Value = 1
+
+Line Number = 13
+Fault Value = 0
+
+Line Number = 13
+Fault Value = 1
+
+Line Number = 14
+Fault Value = 0
+
+Line Number = 14
+Fault Value = 1
+
+Line Number = 15
+Fault Value = 0
+
+Line Number = 15
+Fault Value = 1
+
+Line Number = 16
+Fault Value = 0
+
+Line Number = 16
+Fault Value = 1
+
+Line Number = 17
+Fault Value = 0
+
+Line Number = 17
+Fault Value = 1
+
+
+================================================================================
+===============               In --> CollapseFaults              ===============
+================================================================================
+
+Line number of last output = 17
+Level of last output = 0
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 1
+The Element is 1
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 2
+The Element is 2
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 3
+The Element is 3
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 4
+The Element is 4
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 5
+The Element is 5
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 6
+The Element is 6
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 7
+The Element is 7
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 8
+The Element is 8
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 9
+The Element is 9
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 10
+The Element is 10
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 11
+The Element is 11
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 12
+The Element is 12
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 13
+The Element is 13
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 14
+The Element is 14
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 15
+The Element is 15
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 16
+The Element is 16
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+	After Fault Collapse, the Map contains
+------------------------------------------------------------
+The key is 17
+The Element is 17
+The StuckAt_0 fault is 1
+The StuckAt_1 fault is 1
+------------------------------------------------------------
+
+
+================================================================================
+===============               In --> CreateFaultList               ===============
+================================================================================
+
+
+Master Fault List Contains
+------------------------------------------------------------
+Line Number = 1
+Fault Value = 0
+
+Line Number = 1
+Fault Value = 1
+
+Line Number = 2
+Fault Value = 0
+
+Line Number = 2
+Fault Value = 1
+
+Line Number = 3
+Fault Value = 0
+
+Line Number = 3
+Fault Value = 1
+
+Line Number = 4
+Fault Value = 0
+
+Line Number = 4
+Fault Value = 1
+
+Line Number = 5
+Fault Value = 0
+
+Line Number = 5
+Fault Value = 1
+
+Line Number = 6
+Fault Value = 0
+
+Line Number = 6
+Fault Value = 1
+
+Line Number = 7
+Fault Value = 0
+
+Line Number = 7
+Fault Value = 1
+
+Line Number = 8
+Fault Value = 0
+
+Line Number = 8
+Fault Value = 1
+
+Line Number = 9
+Fault Value = 0
+
+Line Number = 9
+Fault Value = 1
+
+Line Number = 10
+Fault Value = 0
+
+Line Number = 10
+Fault Value = 1
+
+Line Number = 11
+Fault Value = 0
+
+Line Number = 11
+Fault Value = 1
+
+Line Number = 12
+Fault Value = 0
+
+Line Number = 12
+Fault Value = 1
+
+Line Number = 13
+Fault Value = 0
+
+Line Number = 13
+Fault Value = 1
+
+Line Number = 14
+Fault Value = 0
+
+Line Number = 14
+Fault Value = 1
+
+Line Number = 15
+Fault Value = 0
+
+Line Number = 15
+Fault Value = 1
+
+Line Number = 16
+Fault Value = 0
+
+Line Number = 16
+Fault Value = 1
+
+Line Number = 17
+Fault Value = 0
+
+Line Number = 17
+Fault Value = 1
+
+
+================================================================================
+===============        In --> GenerateMasterInputVectors         ===============
+================================================================================
+
+Total Inputs = 6
+------------------------------------------------------------
+
+Vector Table for this circuit.
+------------------------------------------------------------
+
+444441
+444440
+444414
+444404
+444144
+444044
+441444
+440444
+414444
+404444
+144444
+044444
+444411
+444410
+444401
+444400
+444141
+444140
+444114
+444104
+444041
+444040
+444014
+444004
+441441
+441440
+441414
+441404
+441144
+441044
+440441
+440440
+440414
+440404
+440144
+440044
+414441
+414440
+414414
+414404
+414144
+414044
+411444
+410444
+404441
+404440
+404414
+404404
+404144
+404044
+401444
+400444
+144441
+144440
+144414
+144404
+144144
+144044
+141444
+140444
+114444
+104444
+044441
+044440
+044414
+044404
+044144
+044044
+041444
+040444
+014444
+004444
+444111
+444110
+444101
+444100
+444011
+444010
+444001
+444000
+441411
+441410
+441401
+441400
+441141
+441140
+441114
+441104
+441041
+441040
+441014
+441004
+440411
+440410
+440401
+440400
+440141
+440140
+440114
+440104
+440041
+440040
+440014
+440004
+414411
+414410
+414401
+414400
+414141
+414140
+414114
+414104
+414041
+414040
+414014
+414004
+411441
+411440
+411414
+411404
+411144
+411044
+410441
+410440
+410414
+410404
+410144
+410044
+404411
+404410
+404401
+404400
+404141
+404140
+404114
+404104
+404041
+404040
+404014
+404004
+401441
+401440
+401414
+401404
+401144
+401044
+400441
+400440
+400414
+400404
+400144
+400044
+144411
+144410
+144401
+144400
+144141
+144140
+144114
+144104
+144041
+144040
+144014
+144004
+141441
+141440
+141414
+141404
+141144
+141044
+140441
+140440
+140414
+140404
+140144
+140044
+114441
+114440
+114414
+114404
+114144
+114044
+111444
+110444
+104441
+104440
+104414
+104404
+104144
+104044
+101444
+100444
+044411
+044410
+044401
+044400
+044141
+044140
+044114
+044104
+044041
+044040
+044014
+044004
+041441
+041440
+041414
+041404
+041144
+041044
+040441
+040440
+040414
+040404
+040144
+040044
+014441
+014440
+014414
+014404
+014144
+014044
+011444
+010444
+004441
+004440
+004414
+004404
+004144
+004044
+001444
+000444
+441111
+441110
+441101
+441100
+441011
+441010
+441001
+441000
+440111
+440110
+440101
+440100
+440011
+440010
+440001
+440000
+414111
+414110
+414101
+414100
+414011
+414010
+414001
+414000
+411411
+411410
+411401
+411400
+411141
+411140
+411114
+411104
+411041
+411040
+411014
+411004
+410411
+410410
+410401
+410400
+410141
+410140
+410114
+410104
+410041
+410040
+410014
+410004
+404111
+404110
+404101
+404100
+404011
+404010
+404001
+404000
+401411
+401410
+401401
+401400
+401141
+401140
+401114
+401104
+401041
+401040
+401014
+401004
+400411
+400410
+400401
+400400
+400141
+400140
+400114
+400104
+400041
+400040
+400014
+400004
+144111
+144110
+144101
+144100
+144011
+144010
+144001
+144000
+141411
+141410
+141401
+141400
+141141
+141140
+141114
+141104
+141041
+141040
+141014
+141004
+140411
+140410
+140401
+140400
+140141
+140140
+140114
+140104
+140041
+140040
+140014
+140004
+114411
+114410
+114401
+114400
+114141
+114140
+114114
+114104
+114041
+114040
+114014
+114004
+111441
+111440
+111414
+111404
+111144
+111044
+110441
+110440
+110414
+110404
+110144
+110044
+104411
+104410
+104401
+104400
+104141
+104140
+104114
+104104
+104041
+104040
+104014
+104004
+101441
+101440
+101414
+101404
+101144
+101044
+100441
+100440
+100414
+100404
+100144
+100044
+044111
+044110
+044101
+044100
+044011
+044010
+044001
+044000
+041411
+041410
+041401
+041400
+041141
+041140
+041114
+041104
+041041
+041040
+041014
+041004
+040411
+040410
+040401
+040400
+040141
+040140
+040114
+040104
+040041
+040040
+040014
+040004
+014411
+014410
+014401
+014400
+014141
+014140
+014114
+014104
+014041
+014040
+014014
+014004
+011441
+011440
+011414
+011404
+011144
+011044
+010441
+010440
+010414
+010404
+010144
+010044
+004411
+004410
+004401
+004400
+004141
+004140
+004114
+004104
+004041
+004040
+004014
+004004
+001441
+001440
+001414
+001404
+001144
+001044
+000441
+000440
+000414
+000404
+000144
+000044
+411111
+411110
+411101
+411100
+411011
+411010
+411001
+411000
+410111
+410110
+410101
+410100
+410011
+410010
+410001
+410000
+401111
+401110
+401101
+401100
+401011
+401010
+401001
+401000
+400111
+400110
+400101
+400100
+400011
+400010
+400001
+400000
+141111
+141110
+141101
+141100
+141011
+141010
+141001
+141000
+140111
+140110
+140101
+140100
+140011
+140010
+140001
+140000
+114111
+114110
+114101
+114100
+114011
+114010
+114001
+114000
+111411
+111410
+111401
+111400
+111141
+111140
+111114
+111104
+111041
+111040
+111014
+111004
+110411
+110410
+110401
+110400
+110141
+110140
+110114
+110104
+110041
+110040
+110014
+110004
+104111
+104110
+104101
+104100
+104011
+104010
+104001
+104000
+101411
+101410
+101401
+101400
+101141
+101140
+101114
+101104
+101041
+101040
+101014
+101004
+100411
+100410
+100401
+100400
+100141
+100140
+100114
+100104
+100041
+100040
+100014
+100004
+041111
+041110
+041101
+041100
+041011
+041010
+041001
+041000
+040111
+040110
+040101
+040100
+040011
+040010
+040001
+040000
+014111
+014110
+014101
+014100
+014011
+014010
+014001
+014000
+011411
+011410
+011401
+011400
+011141
+011140
+011114
+011104
+011041
+011040
+011014
+011004
+010411
+010410
+010401
+010400
+010141
+010140
+010114
+010104
+010041
+010040
+010014
+010004
+004111
+004110
+004101
+004100
+004011
+004010
+004001
+004000
+001411
+001410
+001401
+001400
+001141
+001140
+001114
+001104
+001041
+001040
+001014
+001004
+000411
+000410
+000401
+000400
+000141
+000140
+000114
+000104
+000041
+000040
+000014
+000004
+111111
+111110
+111101
+111100
+111011
+111010
+111001
+111000
+110111
+110110
+110101
+110100
+110011
+110010
+110001
+110000
+101111
+101110
+101101
+101100
+101011
+101010
+101001
+101000
+100111
+100110
+100101
+100100
+100011
+100010
+100001
+100000
+011111
+011110
+011101
+011100
+011011
+011010
+011001
+011000
+010111
+010110
+010101
+010100
+010011
+010010
+010001
+010000
+001111
+001110
+001101
+001100
+001011
+001010
+001001
+001000
+000111
+000110
+000101
+000100
+000011
+000010
+000001
+000000
+------------------------------------------------------------
+
+================================================================================
+===============            In --> CheckAllFaultsATPG             ===============
+================================================================================
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 2 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 2 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 1
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 3 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 3 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 1
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 1
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 2 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 2 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 2
+The fault is stuck at = 0
+Test was generated by vector = 014111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 3 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 3 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 2
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 1
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 2 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 3
+The fault is stuck at = 0
+Test was generated by vector = 411401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 3 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 3
+The fault is stuck at = 1
+Test was generated by vector = 410401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 2 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 2 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 4
+The fault is stuck at = 0
+Test was generated by vector = 410111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 0
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 3 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 3 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 4
+The fault is stuck at = 1
+Test was generated by vector = 410011
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 0
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 0 
+The value of the input at line number 5 is = 2 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 2 
+The value of the line number 7 is = 2 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 5
+The fault is stuck at = 0
+Test was generated by vector = 440011
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 0
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 0 
+The value of the input at line number 5 is = 3 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 3 
+The value of the line number 7 is = 3 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 5
+The fault is stuck at = 1
+Test was generated by vector = 440001
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 2 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 2 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 6
+The fault is stuck at = 0
+Test was generated by vector = 410111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 1
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 3 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 3 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 6
+The fault is stuck at = 1
+Test was generated by vector = 410101
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 0
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 0 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 2 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 7
+The fault is stuck at = 0
+Test was generated by vector = 440011
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 3 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 7
+The fault is stuck at = 1
+Test was generated by vector = 440401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 2 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 8
+The fault is stuck at = 0
+Test was generated by vector = 414111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 3 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 8
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 2 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 9
+The fault is stuck at = 0
+Test was generated by vector = 410111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 3 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 9
+The fault is stuck at = 1
+Test was generated by vector = 410401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 10
+The fault is stuck at = 0
+Test was generated by vector = 414111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 10
+The fault is stuck at = 1
+Test was generated by vector = 410401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 11
+The fault is stuck at = 0
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 11
+The fault is stuck at = 1
+Test was generated by vector = 000401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 12
+The fault is stuck at = 0
+Test was generated by vector = 414111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 12
+The fault is stuck at = 1
+Test was generated by vector = 440401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 13
+The fault is stuck at = 0
+Test was generated by vector = 000401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 13
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 14
+The fault is stuck at = 0
+Test was generated by vector = 440401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 0
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 0 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 14
+The fault is stuck at = 1
+Test was generated by vector = 440400
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 15
+The fault is stuck at = 0
+Test was generated by vector = 440401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 15
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 0
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 0 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 0 
+The value of the line number 15 is = 4 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 16
+The fault is stuck at = 0
+Test was generated by vector = 444110
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 16
+The fault is stuck at = 1
+Test was generated by vector = 440401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 2 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 17
+The fault is stuck at = 0
+Test was generated by vector = 440401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 0
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 3 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 17
+The fault is stuck at = 1
+Test was generated by vector = 440400
+------------------------------------------------------------
+
+================================================================================
+===============            In --> CheckAllFaultsATPG             ===============
+================================================================================
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 2 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 2 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 1
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 3 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 3 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 1
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 1
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 2 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 2 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 2
+The fault is stuck at = 0
+Test was generated by vector = 014111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 3 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 3 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 2
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 1
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 2 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 3
+The fault is stuck at = 0
+Test was generated by vector = 411401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 3 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 3
+The fault is stuck at = 1
+Test was generated by vector = 410401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 2 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 2 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 4
+The fault is stuck at = 0
+Test was generated by vector = 410111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 0
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 3 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 3 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 4
+The fault is stuck at = 1
+Test was generated by vector = 410011
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 0
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 0 
+The value of the input at line number 5 is = 2 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 2 
+The value of the line number 7 is = 2 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 5
+The fault is stuck at = 0
+Test was generated by vector = 410011
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 1
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 1 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 3 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 3 
+The value of the line number 7 is = 3 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 4 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 5
+The fault is stuck at = 1
+Test was generated by vector = 411401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 2 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 2 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 6
+The fault is stuck at = 0
+Test was generated by vector = 410111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 1
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 3 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 3 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 6
+The fault is stuck at = 1
+Test was generated by vector = 410101
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 1 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 2 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 7
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 1
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 1 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 3 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 7
+The fault is stuck at = 1
+Test was generated by vector = 411401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 1 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 2 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 8
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 3 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 8
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 2 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 9
+The fault is stuck at = 0
+Test was generated by vector = 410111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 3 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 9
+The fault is stuck at = 1
+Test was generated by vector = 410401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 1 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 2 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 10
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 3 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 10
+The fault is stuck at = 1
+Test was generated by vector = 410401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 2 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 11
+The fault is stuck at = 0
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 3 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 11
+The fault is stuck at = 1
+Test was generated by vector = 000401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 1 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 2 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 12
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 3 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 12
+The fault is stuck at = 1
+Test was generated by vector = 410401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 2 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 13
+The fault is stuck at = 0
+Test was generated by vector = 000401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 3 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 13
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 1 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 14
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 1
+Input Vector [2] is = 1
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 1 
+The value of the input at line number 3 is = 1 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 14
+The fault is stuck at = 1
+Test was generated by vector = 411401
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 1 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 2 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 15
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 3 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 15
+The fault is stuck at = 1
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 0
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 0 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 0 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 0 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 16
+The fault is stuck at = 0
+Test was generated by vector = 004111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 1 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 1 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 1 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 16
+The fault is stuck at = 1
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 1
+Input Vector [1] is = 0
+Input Vector [2] is = 4
+Input Vector [3] is = 1
+Input Vector [4] is = 1
+Input Vector [5] is = 1
+
+The value of the input at line number 1 is = 1 
+The value of the input at line number 2 is = 0 
+The value of the input at line number 3 is = 4 
+The value of the input at line number 4 is = 1 
+The value of the input at line number 5 is = 1 
+The value of the input at line number 17 is = 2 
+
+The value of the line number 6 is = 1 
+The value of the line number 7 is = 1 
+The value of the line number 8 is = 1 
+The value of the line number 9 is = 1 
+The value of the line number 10 is = 1 
+The value of the line number 11 is = 1 
+The value of the line number 12 is = 1 
+The value of the line number 13 is = 0 
+The value of the line number 14 is = 2 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 3 
+
+The value of the output at line number 16 is = 3 
+
+
+------------------------------------------------------------
+The fault is at line number = 17
+The fault is stuck at = 0
+Test was generated by vector = 104111
+------------------------------------------------------------
+
+================================================================================
+===============          In --> TestAllVectorsForATPG            ===============
+================================================================================
+
+================================================================================
+===============            In --> CheckVectorForATPG             ===============
+================================================================================
+
+There are 6 inputs to this circuit.
+
+Input Vector [0] is = 4
+Input Vector [1] is = 4
+Input Vector [2] is = 0
+Input Vector [3] is = 4
+Input Vector [4] is = 0
+Input Vector [5] is = 0
+
+The value of the input at line number 1 is = 4 
+The value of the input at line number 2 is = 4 
+The value of the input at line number 3 is = 0 
+The value of the input at line number 4 is = 4 
+The value of the input at line number 5 is = 0 
+The value of the input at line number 17 is = 3 
+
+The value of the line number 6 is = 0 
+The value of the line number 7 is = 0 
+The value of the line number 8 is = 4 
+The value of the line number 9 is = 0 
+The value of the line number 10 is = 0 
+The value of the line number 11 is = 0 
+The value of the line number 12 is = 0 
+The value of the line number 13 is = 1 
+The value of the line number 14 is = 3 
+The value of the line number 15 is = 1 
+The value of the line number 16 is = 2 
+
+The value of the output at line number 16 is = 2 
+
+
+------------------------------------------------------------
+The fault is at line number = 17
+The fault is stuck at = 1
+Test was generated by vector = 440400
+------------------------------------------------------------
+
+File opened successfully
+File name = vectorFile.vec
+--------------------------------------------------------------------------------
+
+File opened successfully
+File name = reportFile.tst
+--------------------------------------------------------------------------------
+

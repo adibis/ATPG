@@ -16,5 +16,4 @@ atpg.o: atpg.cc
 
 # make clean
 clean:
-	rm -rf *o atpg
-
+	rm -rf *.o atpg

@@ -15,14 +15,14 @@
  *         Author:  Aditya Shevade <aditya.shevade@gmail.com>,
  *                  Amey Marathe <marathe.amey@gmail.com>,
  *                  Samik Biswas <samiksb@gmail.com>,
- *                  Viraj Bhogle <viraj.bhogle@gmail.com>  
+ *                  Viraj Bhogle <viraj.bhogle@gmail.com>
  *
  * =====================================================================================
  */
 
 using namespace std;
 
-// #####   HEADER FILE INCLUDES   ################################################### 
+// #####   HEADER FILE INCLUDES   ###################################################
 
 // This file contains the tables which are looked up for determinig the output.
 
@@ -52,7 +52,7 @@ namespace nameSpace_ATPG {
  * logic in our test generator.
  *-----------------------------------------------------------------------------*/
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  forwardImlpication
  *  Description:  The function takes in an STL set as input and returns a set as output.
@@ -92,7 +92,7 @@ set <int>   forwardImplication (unsigned int gateType, set <int> & input_a) {
 
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  forwardImlpication
  *  Description:  The function takes in an STL set as input and returns a set as output.
@@ -139,7 +139,7 @@ set <int>   forwardImplication (unsigned int gateType, set <int> &input_a, set <
 
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  forwardImlpication
  *  Description:  The function takes in an STL set as input and returns a set as output.
@@ -181,4 +181,3 @@ set <int>   forwardImplication (unsigned int gateType, set <int> &input_a, set <
 }
 
 } /* namespace nameSpace_ATPG */
-

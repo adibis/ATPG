@@ -3,8 +3,8 @@
  *
  *       Filename:  atpg.cc
  *
- *    Description:  This is an ATPG (Automatic Test Pattern Generator) code that 
- *                  generates test vectors to test single stuck at faults for 
+ *    Description:  This is an ATPG (Automatic Test Pattern Generator) code that
+ *                  generates test vectors to test single stuck at faults for
  *                  combinational circuits.
  *
  *                  The circuits are defined in a specific format. Please refer to the
@@ -37,11 +37,11 @@
  *                  Amey Marathe <marathe.amey@gmail.com>,
  *                  Samik Biswas <samiksb@gmail.com>,
  *                  Viraj Bhogle <viraj.bhogle@gmail.com>
- *         
+ *
  * =====================================================================================
  */
 
-// #####   HEADER FILE INCLUDES   ################################################### 
+// #####   HEADER FILE INCLUDES   ###################################################
 
 #include <iostream>
 #include <fstream>
@@ -118,10 +118,10 @@ vector <FaultList> providedFaultList;
 vector <TestList> masterTestList;
 vector <TestList> finalTestList;
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  ReadCircuit
- *  Description:  This function, once it can successfully open the circuit file, will 
+ *  Description:  This function, once it can successfully open the circuit file, will
  *                then populate the structure/class with the proper values from the file.
  * =====================================================================================
  */
@@ -192,10 +192,7 @@ void ReadCircuit (ifstream &inFile) {
         }
 
         masterNodeList.push_back(*thisNode);
-
-
         delete thisNode;
-
     }
 
     set <int>::iterator it, ij;
@@ -235,11 +232,11 @@ void ReadCircuit (ifstream &inFile) {
     #endif
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  ReadFaultList
  *  Description:  Fault list file has the format <lineNumber> <faultType> on each line.
- *                This function just parses that file and sets the proper variables 
+ *                This function just parses that file and sets the proper variables
  *                in FaultList object list if fault exists.
  * =====================================================================================
  */
@@ -282,8 +279,6 @@ void ReadFaultList (ifstream &inFile) {
                     cout << "------------------------------------------------------------" << endl << endl;
                 }
             }
-
-
         }
     }
 
@@ -306,11 +301,11 @@ void ReadFaultList (ifstream &inFile) {
  * ============================================================================
  */
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  SetLineLevel
  *  Description:  This function divides the circuit in logical levels.
- *                There is no feedback in a combinational circuit so we can go from 
+ *                There is no feedback in a combinational circuit so we can go from
  *                level 0 to level MAX and find the proper input to output paths.
  * =====================================================================================
  */
@@ -338,7 +333,6 @@ void SetLineLevel (vector <CircuitNode> &masterNodeList) {
      *              -- Check the level of that next node.
      *                  -- If it is less than the level of current node, update it.
      */
-
     for (int i = 0; i < masterNodeList.size(); i++) {
         for (int j = (i + 1); j < masterNodeList.size(); j++) {
             for (it = masterNodeList[j].listFanIn.begin(); it != masterNodeList[j].listFanIn.end(); it++) {
@@ -364,16 +358,16 @@ void SetLineLevel (vector <CircuitNode> &masterNodeList) {
 
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  CreateFaultObjects
  *  Description:  This function generates one object of the CircuitLine class for every
- *                unique line in the circuit. So, after going through this function, we 
- *                have a list of objects for each line in the circuit. Every line may 
- *                have a stuck at 0 or a stuck at 1 fault so values are set to true for 
+ *                unique line in the circuit. So, after going through this function, we
+ *                have a list of objects for each line in the circuit. Every line may
+ *                have a stuck at 0 or a stuck at 1 fault so values are set to true for
  *                both.
  *
- *                A map is used here with the line number as the key. Duplicate elements 
+ *                A map is used here with the line number as the key. Duplicate elements
  *                would be removed automatically by the map.
  * =====================================================================================
  */
@@ -426,14 +420,12 @@ void CreateFaultObjects (map <int, CircuitLine> &masterLineList, vector <Circuit
             WRITE << endl << endl;
         }
     #endif
-
-
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  CollapseFaults
- *  Description:  This function takes the list of lines in the circuit and then 
+ *  Description:  This function takes the list of lines in the circuit and then
  *                collapses the faults going from output to input.
  *
  *                Fault collapse for XOR, XNOR and Branches is not yet implemented.
@@ -478,7 +470,6 @@ void CollapseFaults (map <int, CircuitLine> &masterLineList, vector <CircuitNode
     //      -- Second fault stays on all inputs.
     //
     // XOR, XNOR and Branches are not considered here.
-
     for (int i = lastOutputLineLevel; i > 0; i--) {
         for (int j = 0; j < masterNodeList.size(); j++) {
             if (masterNodeList[j].lineLevel == i) {
@@ -542,14 +533,13 @@ void CollapseFaults (map <int, CircuitLine> &masterLineList, vector <CircuitNode
             WRITE << endl << endl;
         }
     #endif
-
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  CreateFaultList
- *  Description:  Once the faults have been collapsed, this function generates a list 
- *                of all possible faults and the line numbers associated with them. When 
+ *  Description:  Once the faults have been collapsed, this function generates a list
+ *                of all possible faults and the line numbers associated with them. When
  *                running ATPG, we have to obtain a test for every fault in this list.
  * =====================================================================================
  */
@@ -587,14 +577,13 @@ void CreateFaultList (vector <FaultList> &inFaultList) {
         }
         WRITE << endl;
     #endif
-
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  SimpleLogicSimulation
  *  Description:  Simple logic simulation. The number of inputs are provided to it.
- *                It generates a random input vector, simulates the circuit and then 
+ *                It generates a random input vector, simulates the circuit and then
  *                generates the output value.
  * =====================================================================================
  */
@@ -712,13 +701,12 @@ void SimpleLogicSimulation (int totalInputs, string inVector) {
 
         WRITE << endl;
     #endif
-
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  GenerateMasterInputVectors
- *  Description:  This function takes in the number of inputs and then generates an 
+ *  Description:  This function takes in the number of inputs and then generates an
  *                exhaustive list of vectors to test the circuit with. Starting with
  *                all 'X's and finishing with all known inputs.
  *
@@ -782,13 +770,13 @@ void GenerateMasterInputVectors (int totalInputs) {
     #endif
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  CheckVectorForATPG
- *  Description:  This function takes in the line number and the fault present at that 
+ *  Description:  This function takes in the line number and the fault present at that
  *                line. It also takes in an input vector to be checked.
  *
- *                It then checks first if the fault can be excited. If the fault can be 
+ *                It then checks first if the fault can be excited. If the fault can be
  *                excited then it checks whether the fault can be propagated to any one
  *                of the outputs. If both of them result in true then the fault can be
  *                tested with the vector.
@@ -928,7 +916,6 @@ bool CheckVectorForATPG (int totalInputs, int inLineNumber, bool inStuckAtValue,
         }
     }
 
-
     #ifdef DEBUG
         if (isTestGenerated) {
             WRITE << "================================================================================" << endl;
@@ -983,7 +970,7 @@ bool CheckVectorForATPG (int totalInputs, int inLineNumber, bool inStuckAtValue,
         return false;
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  TestAllVectorsATPG
  *  Description:  This function reads from the vector table.
@@ -1024,10 +1011,9 @@ bool TestAllVectorsATPG (int totalInputs, int inLineNumber, bool inStuckAtValue,
     }
 
     return false;
-
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  CheckAllFaultsATPG
  *  Description:  This function keeps checking if a test vector is possible for all the
@@ -1066,7 +1052,6 @@ void CheckAllFaultsATPG (int totalInputs, vector <string> &inVectorList, vector 
 
 }
 
-
 /*
  * ============================================================================
  * NOTE - this function is just written to check the working of all the
@@ -1074,7 +1059,6 @@ void CheckAllFaultsATPG (int totalInputs, vector <string> &inVectorList, vector 
  * would work.
  * ============================================================================
  */
-
 int main (int argc, char *argv[]) {
 
     #ifdef LOG
@@ -1192,7 +1176,7 @@ int main (int argc, char *argv[]) {
         cout << "==========      Checking for given faults.     ==========" << endl;
     } else {
         cout << "========== Checking for all faults in circuit. ==========" << endl;
-    }   
+    }
     cout << "=========================================================" << endl;
 
     // Now, if there was a fault list given, we try to test the faults in the list using

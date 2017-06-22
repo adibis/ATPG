@@ -21,7 +21,7 @@
 
 using namespace std;
 
-// #####   HEADER FILE INCLUDES   ################################################### 
+// #####   HEADER FILE INCLUDES   ###################################################
 
 // Global constant definitions.
 
@@ -31,12 +31,12 @@ using namespace std;
 
 namespace nameSpace_ATPG {
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  openInFile
  *  Description:  Opens file for reading. Receives the filename as input parameter.
  *                The file handle to use for the file. Also receives a log file handle
- *                where all the debug information is dumped. 
+ *                where all the debug information is dumped.
  * =====================================================================================
  */
 void openInFile (char *fileName, ifstream &inFile, ofstream &logFile) {
@@ -55,12 +55,12 @@ void openInFile (char *fileName, ifstream &inFile, ofstream &logFile) {
     }
 }
 
-/* 
+/*
  * ===  FUNCTION  ======================================================================
  *         Name:  openOutFile
  *  Description:  Opens file for writing. Receives the filename as input parameter.
  *                The file handle to use for the file. Also receives a log file handle
- *                where all the debug information is dumped. 
+ *                where all the debug information is dumped.
  * =====================================================================================
  */
 void openOutFile (char *fileName, ofstream &inFile, ofstream &logFile) {
@@ -80,4 +80,3 @@ void openOutFile (char *fileName, ofstream &inFile, ofstream &logFile) {
 }
 
 } /* nameSpace_ATPG */
-
